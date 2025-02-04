@@ -4,10 +4,12 @@ function Home() {
   return (
     <>
       <header>
-        {/* What component should go here? */}
+        <h1>Home Page</h1>
       </header>
       <main>
-        {/* Info goes here! */}
+        <MovieCard title="Doctor Strange" />
+        <MovieCard title="Inception" />
+        <MovieCard title="Interstellar" />
       </main>
     </>
   );
